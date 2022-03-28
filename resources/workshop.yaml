@@ -1,0 +1,25 @@
+apiVersion: training.eduk8s.io/v1alpha2
+kind: Workshop
+metadata:
+  name: lab-tap-sample
+spec:
+  title: The INSANELY KEWL Workshop Ever
+  description: This is a sample workshop created by Jeremy and Mae 
+  vendor: VMWare
+  difficulty: beginner
+  duration: 15m
+  url: https://github.com/x95castle1/lab-tap-sample
+  content:
+    #image: quay.io/eduk8s/lab-markdown-sample:master
+    files: github.com/x95castle1/lab-tap-sample
+  session:
+    namespaces:
+      budget: small
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: true
+      editor:
+        enabled: true
