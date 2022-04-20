@@ -18,8 +18,8 @@ spec:
     applications:
       terminal:
         enabled: true
-        layout: split
+        layout: default
       console:
-        enabled: true
+        enabled: false
       editor:
-        enabled: true
+        enabled: false
