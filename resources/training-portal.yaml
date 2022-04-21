@@ -9,5 +9,5 @@ spec:
   workshops:
   - name: lab-tap-sample
     capacity: 2
-    expires: 60m
-    orphaned: 5m
+    expires: 1m
+    orphaned: 1m
